@@ -1,0 +1,19 @@
+.toast {
+  opacity: 1;
+  transition: opacity 0.5s;
+  background-color: rgb(2, 122, 28);
+
+  padding: 1.5rem;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+
+  position: absolute;
+  display: block;
+
+  top: 1rem;
+  right: 1rem;
+}
+
+.toast.disable {
+  opacity: 0;
+}
